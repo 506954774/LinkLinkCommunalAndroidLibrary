@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--里面的布局子类自己添加-->
+    <LinearLayout
+        android:id="@+id/rl_photo_top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme" >
+
+
+    </LinearLayout>
+
+    <view
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.qdong.communal.library.module.ImageCrop.CropImageView"
+        android:background="#0E202E" />
+
+</LinearLayout>

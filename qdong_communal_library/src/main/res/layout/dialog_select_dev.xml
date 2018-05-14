@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@drawable/dialog_blue_bg_sp"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="20dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:id="@+id/dailog_list"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:divider="@null"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:scrollbars="none"/>
+
+    <View
+        android:id="@+id/btnLayout_above"
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:layout_marginLeft="1.0px"
+        android:layout_marginRight="1.0px"
+        android:background="#2f00A0E9"/>
+
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialogLeftBtn"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:singleLine="true"
+            android:text="@string/cancel_"
+            android:textColor="@drawable/blue_gray_font_sel"/>
+
+        <TextView
+            android:id="@+id/dialogRightBtn"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:singleLine="true"
+            android:text="@string/commit"
+            android:textColor="@drawable/blue_gray_font_sel"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0.5dip"
+        android:layout_height="6dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

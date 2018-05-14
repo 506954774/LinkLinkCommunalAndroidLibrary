@@ -1,0 +1,72 @@
+<resources>
+
+    <!--刷新控件的footer-->
+    <string name="app_name">library</string>
+    <string name="loading">正在加载…</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="complete">刷新完成</string>
+    <string name="_hint_">温馨提示</string>
+
+    <!-- loadingView-->
+    <string name="is_loading">加载中...</string>
+    <string name="loading_title">正在玩命为您加载...</string>
+    <string name="check_network">连接网络失败!请先设置网络,然后</string>
+    <string name="no_content_hint">暂无内容</string>
+    <string name="reload"><u>重新加载</u></string>
+    <string name="order_list_network_error">当前网络不可用，请检查你的网络设置</string>
+
+    <!--mainActivity-->
+    <string name="cancel">注销</string>
+    <string name="confirm">完成</string>
+
+    <!--引导页-->
+    <string name="start_use">开始体验</string>
+
+    <!--图片选取-->
+    <string name="photo">相册</string>
+    <string name="limit_quantitiy">您最多只能选择{0}张图片</string>
+    <string name="got_it">我知道了</string>
+    <string name="cancel_">取消</string>
+    <string name="commit">确定</string>
+    <string name="no_sd_card">暂无外部存储</string>
+    <string name="take_photo">拍照</string>
+    <string name="all_photos">所有图片</string>
+    <string name="no_photos">没有图片，拍一张吧！</string>
+
+    <!--搜索城市-->
+    <string name="city_list">城市列表</string>
+    <string name="search_for_city">搜索城市,输入城市名/拼音</string>
+    <string name="recenty_">近</string>
+    <string name="hot_">热</string>
+    <string name="current_city">当前位置</string>
+    <string name="recently_use">最近使用的城市</string>
+    <string name="hot_city">热门城市</string>
+
+
+    <!-- 时间选择控件 -->
+    <string name="chose_time">请选择时间</string>
+    <string name="chose_tomorow_time">请选取明天的某个时间!</string>
+    <string name="time_cancel">取消</string>
+    <string name="time_commit">确认</string>
+    <string name="time_commit_2_0">确定</string>
+    <string name="hour">点</string>
+    <string name="minute">分</string>
+    <string name="c">取消</string>
+    <string name="ok">确定</string>
+    <string name="choose_date_and_time">日期时间</string>
+
+
+    <!-- 滑动解锁控件 -->
+    <string name="hint">滑动上锁</string>
+
+    <!-- 版本更新 -->
+    <string name="check_version_hint1">注意:系统更新，请立即更新版本，否则APP将无法使用!</string>
+    <string name="check_version_time_hint1">注意:系统更新，请在</string>
+    <string name="check_version_time_hint2">之前更新版本，否则APP将无法使用!</string>
+    <string name="check_version_force_update">强制升级 </string>
+    <string name="check_version_update">版本更新 </string>
+    <string name="check_version_updating">已在下载中</string>
+    <string name="check_version_is_the_very_latest">已是最新版本</string>
+    <string name="check_version_download_failed">下载失败</string>
+
+</resources>

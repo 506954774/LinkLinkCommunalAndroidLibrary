@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 星级评分控件 -->
+    <declare-styleable   name="StarEvaluateView" >
+        <attr name="linesCount"            format="integer" />
+        <attr name="starsCount" format="integer" />
+        <attr name="defaultChosen" format="float" />
+        <attr name="stepSize" format="float" />
+        <attr name="checkable" format="boolean" />
+        <attr name="isBig" format="boolean" />
+    </declare-styleable>
+
+
+    <!-- PagerTab xml配置属性 -->
+    <declare-styleable name="PagerTab">
+        <attr name="PagerTabdividerPadding" format="dimension"/>
+        <attr name="dividerWidth" format="dimension"/>
+        <attr name="dividerColor" format="color|reference"/>
+        <attr name="indicatorHeight" format="dimension"/>
+        <attr name="indicatorLeft" format="dimension"/>
+        <attr name="indicatorColor" format="color|reference"/>
+        <attr name="tabTextSize" format="dimension"/>
+        <attr name="PagerTabtabPadding" format="dimension"/>
+        <attr name="tabBackgroundResId" format="reference"/>
+        <attr name="tabTextColorResId" format="integer"/>
+        <attr name="tabTextStyleBold" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="IRecyclerView">
+        <attr name="refreshHeaderLayout" format="reference" />
+        <attr name="loadMoreFooterLayout" format="reference" />
+        <attr name="refreshEnabled" format="boolean" />
+        <attr name="loadMoreEnabled" format="boolean" />
+        <attr name="refreshFinalMoveOffset" format="dimension" />
+    </declare-styleable>
+
+
+    <!-- 滑动解锁控件 xml配置属性 -->
+    <declare-styleable name="SlideToUnlockView">
+        <attr name="slideImageViewWidth" format="dimension"/>
+        <attr name="slideImageViewResId" format="reference"/>
+        <attr name="viewBackgroundResId" format="reference"/>
+        <attr name="textHint" format="string"/>
+        <attr name="textSize" format="integer"/>
+        <attr name="textColorResId" format="color"/>
+        <attr name="slideThreshold" format="float"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircularLoadingView">
+        <attr name="base_color" format="color" />
+        <attr name="progress_color" format="color" />
+        <attr name="max" format="float" />
+        <attr name="min" format="float" />
+        <attr name="duration" format="integer" />
+        <attr name="progress_stroke_width" format="integer" />
+        <attr name="argQuantity" format="integer" />
+        <attr name="ratio" format="float" />
+    </declare-styleable>
+
+</resources>

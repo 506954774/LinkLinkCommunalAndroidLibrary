@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+   <!-- android:background="@color/list_explain_text_color"
+    android:alpha="0.5"-->
+    <View
+        android:alpha="0.5"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </View>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+
+            android:background="@color/appTheme"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="80dp"
+                android:textColor="@drawable/popwindow_choose_time_btn_text_color_selector"
+                android:text="@string/c"
+                android:background="@color/transparent"
+                android:layout_height="match_parent"/>
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:text="@string/choose_date_and_time"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:singleLine="true"
+                android:textColor="@drawable/popwindow_choose_time_btn_text_color_selector"
+
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_submmit"
+                android:layout_alignParentRight="true"
+                android:layout_width="80dp"
+                android:text="@string/ok"
+                android:textColor="@drawable/popwindow_choose_time_btn_text_color_selector"
+                android:background="@color/transparent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <!--timePick的父容器-->
+        <LinearLayout
+            android:id="@+id/ll_pickers"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

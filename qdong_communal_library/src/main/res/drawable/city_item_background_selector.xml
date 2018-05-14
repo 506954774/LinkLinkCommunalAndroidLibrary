@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 所有ListView点击item的背景效果 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/shape_round_5px_normal_gray" />
+    <item android:drawable="@drawable/shape_round_5px_normal_white" />
+</selector>

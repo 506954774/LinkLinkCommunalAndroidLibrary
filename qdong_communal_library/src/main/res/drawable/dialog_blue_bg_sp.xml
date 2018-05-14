@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 边角弯曲幅度 -->
+    <corners android:radius="8dp" />
+    <!-- 背景是否透明 -->
+    <solid android:color="#FFFFFFFF" />
+
+</shape>

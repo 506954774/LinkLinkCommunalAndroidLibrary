@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/theme"/>
+    <stroke android:width="1px" android:color="@color/transparent" />
+    <corners android:radius="5px" />
+
+</shape>
+
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <shape >
+            &lt;!&ndash; 填充颜色 &ndash;&gt;
+            <solid android:color="#EC4C66"/>
+            &lt;!&ndash; 圆角 &ndash;&gt;
+            <corners android:radius="5dp" />
+
+            <stroke android:width="1px" android:color="@color/transparent" />
+        </shape>
+    </item>
+
+</layer-list>-->

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PullToRefresh" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="qZonePublishProgressStyle">
+        <item name="android:maxWidth">30.0dip</item>
+        <item name="android:maxHeight">30.0dip</item>
+        <item name="android:minWidth">30.0dip</item>
+        <item name="android:minHeight">30.0dip</item>
+
+
+    </style>
+
+
+    <!-- 自定义星级(大尺寸)评分风格 -->
+    <style name="RatingBarBig" parent="@android:style/Widget.RatingBar">
+
+        <!-- 指向star_big_rating_bar_full.xml文件 -->
+        <item name="android:progressDrawable">@drawable/star_ratting_big</item>
+    </style>
+    <!-- 自定义星级(小尺寸)评分风格 -->
+    <style name="RatingBarSmall" parent="@android:style/Widget.RatingBar">
+
+        <!-- 指向star_rating_bar_full.xml文件 -->
+        <item name="android:progressDrawable">@drawable/star_ratting_small</item>
+    </style>
+
+
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/pop_enter</item>
+        <item name="android:windowExitAnimation">@anim/pop_out</item>
+    </style>
+
+
+    <style name="white_font">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <!-- 标签展示控件 -->
+    <declare-styleable name="TagsListView">
+        <attr name="mLiearLayoutPaddingLeft" format="integer" />
+        <attr name="mLiearLayoutPaddingRight" format="integer" />
+        <attr name="mLiearLayoutPaddingTop" format="integer" />
+        <attr name="mLiearLayoutPaddingBottom" format="integer" />
+        <attr name="mMaxChooseCount" format="integer" />
+
+        <attr name="mItemPadingLeft" format="integer" />
+        <attr name="mItemPadingTop" format="integer" />
+        <attr name="mItemPadingRight" format="integer" />
+        <attr name="mItemPadingBottom" format="integer" />
+        <attr name="mItemHeight" format="integer" />
+
+        <attr name="mTextColorNormal" format="color" />
+        <attr name="mTextColorChecked" format="color" />
+
+        <attr name="mItemBackGroundSelector" format="reference" />
+        <attr name="mItemBackGroundDrawableNormal" format="reference" />
+        <attr name="mItemBackGroundDrawableChecked" format="reference" />
+        <attr name="mDrivers" format="reference" />
+
+        <attr name="mIsClickable" format="boolean" />
+        <attr name="mTextSize" format="integer" />
+        <attr name="mIsOnlyOne" format="boolean" />
+
+    </declare-styleable>
+
+
+    <!--15sp 大号文本,黑色,-->
+    <style name="text_black_15sp">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ff444444</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="city_select_item">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:background">@drawable/city_item_background_selector</item>
+    </style>
+
+    <!--baseDialog样式-->
+    <style name="MenuDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+
+    <!-- 自定义dialog的风格 -->
+    <!-- parent="@android:Theme.Dialog"-->
+    <style name="MyDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景透明 -->
+
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!--动画风格-->
+    <style name="AnimEventPosterBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in_slow</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <!--动画风格缩放-->
+    <style name="AnimEventScale" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/zoom_ainimation_show</item>
+        <item name="android:windowExitAnimation">@anim/zoom_ainimation_fade</item>
+    </style>
+
+
+    <!--动画风格缩放-->
+    <style name="AnimEventScale_2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/zoom_ainimation_show</item>
+        <item name="android:windowExitAnimation">@anim/zoom_ainimation_fade</item>
+    </style>
+
+
+
+
+</resources>
